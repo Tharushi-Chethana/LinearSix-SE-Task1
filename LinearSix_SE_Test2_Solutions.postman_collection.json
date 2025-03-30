@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "40531eda-3a25-4236-81be-744fbcb5788e",
+		"name": "LinearSix_SE_Test2_Solutions",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28930365"
+	},
+	"item": [
+		{
+			"name": "Array of free/busy intervals",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.a0AeXRPp6zE_mIYUQWOo3biguc1o5QDmIi8lToJnpRpyEFL8pp5_0a7l4gx20NIpi_HjQPYQZevNn2qeVza3IpEYnilkoTkOT76ZdIVkCZEl4-ZFJ5J6UbBP5tjkdw9gcE7typ79Y_LaYUGojy37UHmrVvhIvvbpRSbbBH-yZJaCgYKAdASARISFQHGX2MiUdJNZY2EOyuV_WPTbeTHBw0175",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"timeMin\": \"2025-03-30T00:00:00Z\",\r\n  \"timeMax\": \"2025-03-31T00:00:00Z\",\r\n  \"items\": [\r\n    { \"id\": \"ththarushi3@gmail.com\" }\r\n  ]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.googleapis.com/calendar/v3/freeBusy",
+					"protocol": "https",
+					"host": [
+						"www",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"calendar",
+						"v3",
+						"freeBusy"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
