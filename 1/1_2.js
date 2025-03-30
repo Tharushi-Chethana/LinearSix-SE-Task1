@@ -1,4 +1,5 @@
 let sales = [
+    {amount: 10000, quantity: 10},
     {amount: 4, quantity: 25},
     {amount: 10, quantity: 5},
     {amount: 6, quantity: 30},
